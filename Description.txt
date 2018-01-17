@@ -1,0 +1,17 @@
+Goal and Objective : Primary objective is to study variability in the poverty rate in the US counties by means of one or more of independent or control variable and provide best suitable model to quantify relationships in determining target value Our goal is to design various models to take into consideration the effect of various factors like employment, population and education to predict the poverty rate in all US Counties We further wish to analyze the status of a county based on whether it is metropolitan or not
+
+List of datasets:
+
+Socioeconomic indicators like poverty rates, population change, unemployment rates, and education levels vary geographically across U.S. States and counties 1. Unemployment 2. PovertyEstimates 3.Population Estimates 4. Education
+
+All the four individual datasets have common unique id FIPS Code defined as State-County FIPS Code. It is unique for each county falling under the states. In our dataset, we are covering all 52 USA states including federal district DC and Puerto Rico.
+
+Data Modelling :
+
+Target Variable: Metro_2015 – This binary variable shows status of County as Metro or Non-Metro A decision tree model designed using Metro_2015 as target variable will efficiently determine the classification of the population into Metro and Non-metro counties. Dataset will be partitioned into training and validation datasets before implementing decision tree rules. The attributes that will be considered in selecting best model will be fit statistics, misclassification rate, and average square error.
+
+Clustering can be performed to create the collection of objects similar to each other which will give insight into data distribution. Variables will be standardized before performing clustering to avoid noisy data and outliers. Euclidean distance will be the measure to determine stability and separation.
+
+Recommendation :
+
+The regression equation determines % Poverty rate in a particular county based on significant factors. This model can be This model can be used by education boards to increase or decrease the funds spent on the education system in different counties in order to lower the poverty rate. Census board can use this model in identifying poverty line index based on a population estimate an average household income. By estimating the poverty rate and considering factors like unemployment and education, an analysis can be done to set up employment opportunities in targeted counties.
